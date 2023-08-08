@@ -1,0 +1,154 @@
+/* Fuentes personalizadas */
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=League+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=League+Script&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600&display=swap);
+
+
+.cuerpo{ 
+    background-color: hsl(330, 100%, 96%);
+    overflow: auto;
+}
+
+.card-container {
+    max-height: 200px;
+    overflow: scroll;
+}
+
+/*NAV*/
+nav {
+    display: flex;
+    align-items: center; 
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #676767;
+}
+
+.logo-img {
+    max-width: 30px;
+}  
+
+.mt-n1 {
+    margin-left: 400px !important;
+}
+
+.logo-florenciaruiz{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 60px;
+    background-color: #FFEBF5;
+}
+
+
+/*PUNTO*/
+.nav-link.active {
+    position: relative;
+}
+
+.nav-link.active::after {
+    content: "\2022";
+    display:block;
+    text-align: center;
+    font-size: 24px; 
+    position: absolute;
+    bottom: -12px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100%;
+    color: #676767;
+}
+
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
+
+
+.tituloportfolio {
+    margin-top: 60px;
+    margin-left: 60px;
+    color: #676767;
+}
+
+
+.forma-decoracion{
+    margin-top: 240px;
+    margin-left: -280px;
+}
+
+
+.rectangulo-colores {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+    margin-left: 600px;
+
+}
+
+
+.iframe{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+.welcome{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.logo-container img {
+    width: 40px; 
+    margin: 0 10px; 
+}
+
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 10px 0;
+    color: #555;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+    }
+    
+    .logo-container img {
+        margin: 5px 0;
+    }
+}
