@@ -1,0 +1,49 @@
+.color-especifico-project{
+    background-image: linear-gradient(to bottom, #eae3e3, #efeaeb, #f4f1f3, #f9f8f9, #ffffff);
+}
+
+.textoProject1{
+    color: $mainColor;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    font-family: $poppinsFont;
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+    .card-body{
+        .card-title{
+            font-family: $poppinsFont;
+            font-size: 16px;
+            color: #676767;
+        }
+        
+        .card-text{
+            font-family: $poppinsFont;
+            font-size: 12px;
+            color: $mainColor;
+            font-weight: 00;
+        }
+
+        .btn-container {
+            display: flex;
+            align-items: center;
+        }
+    
+        .btn.btn-outline-secondary {
+            margin-right: 5px;
+        }
+    
+        .btn.btn-outline-secondary i {
+            font-size: 0.75rem;
+            transform: rotate(45deg);
+        }
+    }
+
+}

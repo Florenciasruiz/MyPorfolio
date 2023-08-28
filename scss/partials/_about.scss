@@ -1,0 +1,32 @@
+.color-especifico-about{
+    background-image: linear-gradient(to right bottom, #fbe3ef, #faebf6, #f9f2fb, #fbf9fe, #ffffff);
+}
+
+.container{
+    margin-top: 80px;
+    margin-bottom: 150px;
+
+    .welcome{
+        color: $mainColor;
+        font-family: $ibmFont;
+        margin-bottom: 40px;
+    }
+    
+    .myNameis{
+        color: $mainColor;
+        font-family: $poppinsFont;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+    }
+
+    .textAbout{
+        color: $mainColor;
+        font-size: 20px;
+        font-family: $poppinsFont;
+        line-height: 1.5;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+    }
+}
